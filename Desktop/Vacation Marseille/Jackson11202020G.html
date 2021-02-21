@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Welcome to our options for  Vacation Packages">
+    <title>Reservia</title>
+    <link href="Jackson11202020G.css" type="text/css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/9da80a912d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- sections need headings, and are seen by screen readers! -->
+      <!-- we use divs and spans as wrappers to do layout or add style, they are not semantic and are not seen by screen readers -->
+      <div class="header-top">
+        <img src="images/logo/Reservia.svg" alt="Reservia Logo">
+
+        <nav>
+          <ul class="main-nav">
+            <li><a href="#Accomodations">Accomodations</a></li>
+            <li><a href="#activities">Activites</a></li>
+            <li><a href="#"><strong>Signup</strong></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <h1 id="Dream">Find a place for your Dream Vacation.</h1>
+      <p id="town">Downtown or in Nature</p>
+
+      <!-- the search bar -->
+      <form action="">
+        <i class="fas fa-map-marker-alt search-icon"></i>
+        <input type="search" class="site-search" name="q" placeholder="Marseille, France" aria-label="Search through site content">
+        <button class="search-btn" type="button">Search</button>
+      </form>
+      
+      <!-- the filter buttons -->
+      <section class="filters">
+        <h2>Filters</h2>
+
+        <div class="filter-wrapper"> <!-- use flexbox on this wrapper to change order of filter buttons BY using the flexbox property order on each button-->
+          <button class="filter-btn">
+            <i class="fas fa-money-bill-wave fa-2.3x filter-icon"></i>
+            <span>Low Cost</span>
+          </button>
+    
+          <label for="family-friendly"></label>
+          <button class="filter-btn">
+          <i class="fas fa-male fa-2.3x person-primary"></i>
+          <span>Family-Friendly</span>
+        </button>
+        
+    
+          <label for="heart-primary"></label>
+          <button class="filter-btn">
+          <i class="fas fa-heart fa-2.3x heart-primary"></i>
+          <span>Romantic</span>
+        </button>
+    
+          <label for="cats-primary"></label>
+          <button class="filter-btn">
+          <i class="fas fa-cat fa-2.5x cat-primary"></i>
+          <span>Pets Allowed</span>
+        </button>
+          
+        </div>
+      </section>
+
+
+      <p id="City"><i class="fas fa-info-circle icon-color"></i>More than 500 accomodations are available in this city</p>
+    </header>
+    
+    <main>
+      <div class="top-section-wrapper">
+        <section class="accomodations">
+          <h2>Accomodations in Marseille</h2> 
+          <div class="accom-card-wrapper">
+            <section class="card">
+              <a href="http://www.google.com "target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt='Auberge la Cannebiere'>
+                <h3>Auberge la Cannebiere</h3>
+                <p>Night starting at 25&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star unfilled-star"></i>
+              </a>
+            </section>
+
+            <section class="card">
+              <a href="http://www.google.com "target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt='H&#x00F4tel du port'>
+                <h3>H&#x00F4tel du port</h3>
+                <p>Night starting at 52&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+              </a>
+            </section>
+      
+            <section class="card">
+              <a href="http://www.google.com "target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"  alt='Les Mouettes Hotel'>
+                <h3>Les Mouettes Hotel</h3>
+                <p>Night starting at 76&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star unfilled-star"></i>
+              </a>
+            </section>
+            
+            <section class="card">
+              <a href="http://www.google.com" target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt='Hotel de la Mer'>
+                <h3>Hotel de la Mer</h3>
+                <p>Night starting at45&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star unfilled-star"></i>
+                <i class="fas fa-star unfilled-star"></i>
+              
+              </a>
+            </section>
+
+            <section class="card">
+              <a href="http://www.google.com "target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"  alt='Auberge Le Panier'>
+                <h3>Auberge Le Panier</h3>
+                <p>Night starting at 23&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star unfilled-star"></i>
+              </a>
+            </section>
+
+            <section class="card">
+              <a href="http://www.google.com "target='blank'>
+                <img class="card-img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt='H&#x00F4tel chez Amina'>
+                <h3>H&#x00F4tel chez Amina</h3>
+                <p>Night starting at 96&#x20ac</p>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+                <i class="fas fa-star filled-star"></i>
+              </a>
+            </section>
+          </div>
+        
+
+          <h3>Show More</h3>
+        </section>
+
+
+        <section class="popular">  
+          <h3 id="PopContainer">Most Popular</h3>
+          <i class="fas fa-chart- fa-2x line graph"></i>
+
+
+          
+          <a href="http://www.google.com "target='blank'>
+            <img class="card-pop" src="images/hebergements/2_large/Green Bedroom.jpg" alt='Morning Sun'>
+              
+            <h3>Morning Sun Hotel</h3>
+            <p>Night Starting at 128&#x20ac</p>
+      
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+          </a>
+        
+          
+          <a href="http://www.google.com "target='blank'>
+          <img class="card-pop"    src="images/hebergements/2_large/Ritzy.jpg" alt='Au C&oeligur de l eau Bed and Breakfast'>   
+            
+            <h3>Au C&oeligur de l' eau Bed and Breakfast</h3>
+            <p>Night starting at 71&#x20ac</p>
+      
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star unfilled-star"></i>
+          </a>
+          
+          <a href="http://www.google.com "target='blank'>
+          <img class="card-pop"    src="images/hebergements/3_medium/Relax.jpg" alt='Tout bleu et Blanc Hotel'>
+            <h3>Tout bleu et Blanc Hotel</h3>
+            <p>Night Starting at 68&#x20ac</p>
+          
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star filled-star"></i>
+            <i class="fas fa-star unfilled-star"></i>
+          </a>
+        </section>
+    </div>
+
+    
+    
+
+      <section class="activities">
+          
+        <h1>Activities in Marseille</h1>
+        <div class="activ-card-wrapper">
+        
+          <div class="column-wrap">
+            <section>
+              <image class="Destin" src="images/activites/3_medium/Ancient.jpg">
+            </section>
+            <section>
+              <image class="Destin" src="images/activites/3_medium/Floria.jpg">
+            </section>
+          </div>
+
+          <section>
+            <image class="Destin" src="images/activites/3_medium/Formation.jpg">
+          </section>
+
+          <div class="column-wrap">
+            <section>
+              <image class="Destin" src="images/activites/3_medium/Kilyan.jpg">
+            </section>
+            <section>
+              <image class="Destin" src="images/activites/3_medium/Shore.jpg">
+            </section>
+             
+            <section>
+              <image class="Destin" src="images/activites/3_medium/Boats.jpg">
+            </section>
+             
+         
+          </div>
+        </div>
+      </div>      
+      
+          
+      
+      </section>
+  </main>
+
+  <br>
+
+    <footer>
+      <ul class="footer-list">
+        <li class="list-title"><a href="#">About</a></li>
+        <li>Site Map</li>
+        <li>General Terms and Conditions</li>
+        <li>Data and Privacy</li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="list-title"><a href="#">Our Accomodations</a></li>
+        <li>Quality Assessment</li>
+        <li>You have a hotel ? </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li class="list-title"><a href="#">Assistance</a></li>
+        <li>Help Desk</li>
+        <li>Contact Us</li>
+      </ul>
+    </footer>
+
+  </body>
+</html>

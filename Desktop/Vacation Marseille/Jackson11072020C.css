@@ -1,0 +1,319 @@
+html {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    padding:1%;
+  }
+
+  /* you only need one of the following two css bits */
+  /* 1 - this will style ALL of the placeholders on the page */
+  ::placeholder {
+    color: black;
+  }
+  
+  /* 2 - this will style a specific placeholders with this id - */
+  #site-search::placeholder {
+    color: black;
+  
+  }
+  
+  .search-one {
+    display: block;
+    font: 1rem 'Raleway', sans-serif;
+    box-sizing: 3em;
+    border-color: lightgray;
+    line-height: 5.0;
+    width: 300px;
+    font-weight: bolder;
+    
+    
+  }
+  
+  input,
+  label {
+    margin: 0.2rem 0;
+    line-height: 3.0;
+    border-radius: 40px;
+    width:200px;
+    text-align: center;
+    font-weight:bolder;
+    
+    
+  }
+  
+  .header-top {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-around;
+                  padding-left: 10px;
+                  word-spacing: 3rem;
+  }
+  
+ 
+
+
+  .styled {   
+                display:block;
+                border: 0;
+                line-height: 3.0;
+                padding: 0 20px;
+                font-size: 1rem;
+                text-align: center;
+                color: #ffff;
+                border-radius: 0px 10px 10px 0px;
+                background-color: #0065FC;
+              
+  }
+  
+  
+  
+#filter-wrapper{ 
+                  display:flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+}
+
+.Low{ 
+           text-emphasis: Bold;
+           text-align: center;
+}
+
+.map { 
+               border:solid;
+               border-color:lightgray;
+               border-radius:7px;
+               background-color:lightgray;
+               margin-left:0px;
+               padding:13px;
+              
+
+}
+
+
+
+.money-primary{ 
+               color: #0065FC;
+               margin: 0%;
+               padding:10px;
+               border:solid; 
+               border-radius: 75%;
+               border-color:#DEEBFF ;
+               background-color:#DEEBFF;
+               text-emphasis:bold;
+
+}
+
+.Filters-cost{
+               display:block; 
+               border-radius: 25%;
+               
+}
+
+.cat-primary{
+                color: #0065FC;
+                margin: 0%;
+                padding:10px;
+                border:solid; 
+                border-radius: 75%;
+                border-color:#DEEBFF ;
+                background-color:#DEEBFF;
+
+
+}
+
+.heart-primary{
+  
+                  color: #0065FC;
+                  margin: 0%;
+                  padding:10px;
+                  border:solid; 
+                  border-radius: 75%;
+                  border-color:#DEEBFF ;
+                  background-color:#DEEBFF;
+
+
+}
+
+.person-primary{
+                  color: #0065FC;
+                  margin: 0%;
+                  padding:10px;
+                  border:solid; 
+                  border-radius: 75%;
+                  border-color:#DEEBFF ;
+                  background-color:#DEEBFF;
+}
+  
+.town {
+    text-emphasis: none;
+  }
+  
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    word-spacing: 1em;
+    list-style-type: none;
+  }
+  
+  .main-nava {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .accomodations {
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 62%;
+    margin: 10px;
+  }
+  
+  .accom-card-wrapper {
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    border-radius: 40px;
+    background-color:lightgray;
+    margin: 10px;
+  }
+
+
+  .card-pop { 
+    
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 45%;
+    padding: 5px ;
+    justify-content: right;
+    
+  }
+
+
+
+  .top-section-wrapper {
+    display: flex;
+  }
+  
+              
+.icon-color { background-color: #0065FC ;
+              color:white;
+              border-color: lightgray;
+              border-radius:40%;
+
+}
+  
+  
+.activities {
+  padding: 25px;
+  border-radius: 40px;
+  background-color: yellowgreen;
+  margin-right: 30px;
+}
+
+.activ-card-wrapper {
+  display: flex;
+  border: 3px solid orange;
+}
+
+.column-wrap {
+  border: 3px solid blue;
+}
+  
+  .card {
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 28%;
+    padding: 5px;
+    object-fit: contain;
+  }
+  
+  .card a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: contain;
+  }
+  
+  
+
+
+  
+  .filled-star {
+    color: blue;
+  }
+  
+  .unfilled-star {
+    color: lightgrey;
+  }
+  
+  .line { position: space-between; 
+
+  }
+  
+  
+  .Destin {   display:flex;
+              width: 150px;
+              height: 100px;
+              border-radius: 25px;
+  }
+  
+
+  .About {
+    justify-content: flex-start;
+  }
+  
+  .Our {
+    justify-content: center;
+  }
+  
+  .As {
+    justify-content: end;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:lightgray ;
+  }
+
+  .footer-list {
+    list-style-type: none;
+  }
+
+  .footer-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-title {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .logo {
+      position: absolute;
+    }
+  }
+  
+  .section-wrapper {
+    flex-direction: column-reverse;
+    
+  }
+

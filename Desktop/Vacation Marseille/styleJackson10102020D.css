@@ -1,0 +1,222 @@
+
+html {  
+  background-color: white;
+  font-family:'Raleway', sans-serif;
+}
+
+
+label {
+  display: block;
+  font: 1rem 'Raleway', sans-serif;
+}
+    
+input,
+label {
+  margin: .4rem 0;
+}
+
+/* you only need one of the following two css bits */
+/* 1 - this will style ALL of the placeholders on the page */
+::placeholder {
+  color: black;
+}
+
+/* 2 - this will style a specific placeholders with this id - */
+#site-search::placeholder {
+  color: black;
+}
+
+
+.header-top {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-left: 10px;
+}
+
+
+.Hotel{ text-decoration: none;
+
+}
+
+
+.town {
+      text-emphasis:none;
+}
+
+.main-nav { word-spacing:5em;
+            list-style-type: none;
+            display:flex;
+            text-decoration: none;
+            padding:50px;
+}
+ 
+.live { word-spacing: 10em;
+
+}
+.main-nava {
+             text-decoration: none;
+             color:black;
+}
+#accomodations  { 
+        vertical-align:top;
+
+}
+
+.accomodations { 
+  width: 64%;
+  background-color: green;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.accom-card-wrapper {
+  display: flex;
+}
+
+
+.Demand {   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-color:blue;
+  margin-right: 15px;
+}
+
+
+
+
+
+.Most { text-align: start;
+}
+
+
+
+.Tourist {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        
+        width: 1200px;
+        height: 1000px;
+        border-radius: 40px;
+        background-color:yellowgreen;
+        margin-right: 15px;
+}
+
+
+.card {
+  border-radius: 25px;
+  background-color: whitesmoke;
+
+}
+          
+.card-img {
+  width: 200px;
+  height:150px;
+  border-radius: 25px;
+}
+        
+.Port {  width: 150px;
+        height:100px;
+        border-radius: 25px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-bottom-width: 6em;
+
+}
+
+.Mouette { 
+        width: 150px;
+        height:100px;
+        border-radius: 25px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-bottom-width: 6em;
+
+}
+
+
+
+.laMer {
+        width: 150px;
+        height:100px;
+        border-radius: 25px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-bottom-width: 6em;
+
+
+}
+
+.Panier {
+        width: 150px;
+        height:100px;
+        border-radius: 25px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-bottom-width: 6em;
+}
+
+.Amina {width: 150px;
+        height:100px;
+        border-radius: 25px;
+        border-color: whitesmoke;
+        border-style: solid;
+        border-bottom-width: 6em;
+
+}
+
+.Room { 
+          
+          width: 150px;
+          height:100px;
+          border-radius:25px;
+          border-style: solid;
+          
+}
+
+.Destin { 
+          
+        width: 150px;
+        height:100px;
+        border-radius:25px;
+}
+
+.
+
+li{ list-style-type: none;
+
+}
+
+
+.flex-container{  
+                  display:flex;
+
+}
+.About {     
+             justify-content:flex-start;
+}
+
+.Our {
+        
+        justify-content: center;
+        
+}
+
+
+.As {   justify-content: end;
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+        .logo {
+      
+          position: absolute;
+}

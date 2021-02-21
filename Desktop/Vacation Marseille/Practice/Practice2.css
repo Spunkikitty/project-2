@@ -1,0 +1,48 @@
+
+html{
+    margin:5% 5%;
+}
+
+.box1{ 
+display:flex; 
+justify-content: center; 
+width:90%;
+min-height:60px;
+border: thick solid black ;
+margin:10px;
+padding:10px;
+
+}
+
+.box-wrapper{ 
+    display: flex;
+    flex-direction: row;
+    border:thick solid black;
+    
+
+}
+
+.box2{
+    padding: 2px;
+    margin:2px;
+    width:250px;
+    min-height:550px;
+    border: thick solid black 
+}
+
+.box3{ 
+    padding: 2px;
+    margin:2px;
+    width:950px;
+    min-height:550px;
+    border: thick solid black 
+
+}
+
+.box4{
+    display:flex; 
+    margin:12px;
+    width:92%;
+    min-height:175px;
+    border: thick solid black
+}

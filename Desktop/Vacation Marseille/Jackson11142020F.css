@@ -1,0 +1,337 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 1%;
+}
+
+.search-one {
+  display: block;
+  font: 1rem 'Raleway', sans-serif;
+  box-sizing: 3em;
+  border-color: lightgray;
+  line-height: 5;
+  width: 300px;
+  font-weight: bolder;
+}
+
+input,
+label {
+  margin: 0.2rem 0;
+  line-height: 3.4;
+  border-radius: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight:bold;
+}
+
+.header-top {
+  z-index: 2;
+  float:center ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+/*   
+#filter-wrapper{ 
+                  display:flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+} */
+
+.Low {
+  text-emphasis: Bold;
+  text-align: center;
+}
+
+/* for the search bar */
+/* you only need one of the following two css bits */
+/* 1 - this will style ALL of the placeholders on the page */
+::placeholder {
+  color: black;
+  font-weight:bold;
+}
+
+/* 2 - this will style a specific placeholders with this class - */
+.site-search::placeholder {
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.search-icon {
+  border-radius: 15px 0 0 15px;
+  background-color: lightgray;
+  margin-right: -4px;
+  padding: 16px;
+}
+
+.site-search {
+  border-radius: 0;
+  border: 1px solid lightgrey;
+  margin: 0;
+  padding: 2px;
+}
+
+.search-btn {
+  border: 0;
+  /* line-height: 3; */
+  padding: 14px 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffff;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #0065fc;
+  margin-left: -4px;
+}
+
+/* filter buttons */
+.filters {
+  display: flex;
+}
+
+.filter-btn {
+  color: #0065fc;
+  border-radius: 25px;
+  border-color: #deebff;
+  border: 1px solid lightgrey;
+  margin: 10px;
+}
+
+.filter-btn span {
+  color: black;
+  padding: 0 10px 0 5px;
+}
+
+.filter-icon {
+  background-color: #deebff;
+  border-radius: 55%;
+  height: 31px;
+  width: 50px;
+  color: #0065fc;
+  vertical-align: middle;
+  padding-top: 15px;
+  margin-left: -5px;
+}
+
+.money-primary .wave {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color:#deebff;
+  height: 31px;
+  width: 50px;
+  position:relative; 
+  left:5px;
+}
+
+.Filters-cost {
+  display: block;
+  border-radius: 25%;
+}
+
+.cat-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.heart-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.person-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.town {
+  text-emphasis: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  word-spacing: 1em;
+  list-style-type: none;
+}
+
+.main-nava {
+  text-decoration: none;
+  color: black;
+}
+
+.accomodations {
+  background-color: yellow;
+  border-radius: 30px;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 62%;
+  margin: 10px;
+}
+
+.accom-card-wrapper {
+  display: flex;
+  border-radius: 30px;
+  padding: 10px;
+  flex-wrap: wrap;
+  object-fit:contain;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  border-radius: 40px;
+  background-color: lightgray;
+  margin: 10px;
+}
+
+.card-pop {
+  object-fit: contain;
+  border: 25px 55px 120px 0;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin: 10px;
+  width: 45%;
+  padding: 5px;
+  justify-content: right;
+}
+
+.top-section-wrapper {
+  display: flex;
+  object-fit: contain;
+}
+
+.icon-color {
+  background-color: #0065fc;
+  color: white;
+  border-color: lightgray;
+  border-radius: 40%;
+}
+
+.activities {
+  padding: 25px;
+  border-radius: 40px;
+  background-color: yellowgreen;
+  margin-right: 30px;
+}
+
+.activ-card-wrapper {
+  display: flex;
+  border: 3px solid orange;
+}
+
+.column-wrap {
+  border: 3px solid blue;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin: 5px 0 0 ;
+  width: 28%;
+  padding: 5px;
+  
+  
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0; 
+  max-height: 100%;
+  max-width: 100%;
+  height:auto;
+  
+  
+
+}
+
+.filled-star {
+  color: blue;
+}
+
+.unfilled-star {
+  color: lightgrey;
+}
+
+.line {
+  position: space-between;
+}
+
+.Destin {
+  display: flex;
+  width: 150px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+.About {
+  justify-content: flex-start;
+  margin:800px;
+}
+
+.Our {
+  justify-content: center;
+}
+
+.As {
+  justify-content: end;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-title {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    position: absolute;
+  }
+}
+
+.section-wrapper {
+  flex-direction: column-reverse;
+}

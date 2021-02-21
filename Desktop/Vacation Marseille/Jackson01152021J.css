@@ -1,0 +1,467 @@
+html {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 1%;
+}
+
+.search-one {
+  display: block;
+  font: 1rem 'Raleway', sans-serif;
+  box-sizing: 3em;
+  border-color: lightgray;
+  line-height: 5;
+  width: 300px;
+  font-weight: bolder;
+}
+
+input,
+label {
+  margin: 0.2rem 0;
+  line-height: 3.4;
+  border-radius: 40px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10px;
+  word-spacing: 3rem;
+}
+
+/*   
+#filter-wrapper{ 
+                  display:flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+} */
+
+.Low {
+  text-emphasis: Bold;
+  text-align: center;
+}
+
+/* for the search bar */
+/* you only need one of the following two css bits */
+/* 1 - this will style ALL of the placeholders on the page */
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+/* 2 - this will style a specific placeholders with this class - */
+.site-search::placeholder {
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.search-icon {
+  border-radius: 15px 0 0 15px;
+  background-color: lightgray;
+  margin-right: -4px;
+  padding: 16px;
+}
+
+.site-search {
+  border-radius: 0;
+  border: 1px solid lightgrey;
+  margin: 0;
+  padding: 2px;
+}
+
+.search-btn {
+  border: 0;
+  /* line-height: 3; */
+  padding: 14px 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #deebff;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #0065fc;
+  margin-left: -4px;
+}
+
+/* filter buttons */
+.filters {
+  display: flex;
+}
+
+.filter-btn {
+  color: #0065fc;
+  border-radius: 25px;
+  border-color: #deebff;
+  border: 1px solid #f2f2f2;
+  margin: 10px;
+}
+
+.filter-btn span {
+  color: black;
+  padding: 0 10px 0 5px;
+}
+
+.filter-icon {
+  background-color: #deebff;
+  border-radius: 55%;
+  height: 31px;
+  width: 50px;
+  color: #0065fc;
+  vertical-align: middle;
+  padding-top: 15px;
+  margin-left: -5px;
+}
+
+.money-primary .wave {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+  height: 31px;
+  width: 50px;
+  position: relative;
+  left: 5px;
+}
+
+.Filters-cost {
+  display: block;
+  border-radius: 25%;
+}
+
+.cat-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.heart-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.person-primary {
+  color: #0065fc;
+  margin: 0%;
+  padding: 10px;
+  border: solid;
+  border-radius: 75%;
+  border-color: #deebff;
+  background-color: #deebff;
+}
+
+.town {
+  text-emphasis: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  word-spacing: 1em;
+  list-style-type: none;
+}
+
+.main-nava {
+  text-decoration: none;
+  color: black;
+}
+
+.accomodations {
+  background-color: yellow;
+  border-radius: 30px;
+  padding: 15px;
+  width: 62%;
+  height: 50%;
+  margin: 10px;
+}
+
+.accom-card-wrapper {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 31%;
+  height: 20%;
+  background-color: grey;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.popular h3,
+ p {
+  margin: 7px 0;
+}
+
+.pop-card {
+  display: flex;
+  width: 84%;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+.pop-card-img {
+  object-fit: cover;
+  height: 130px;
+  width: 130px;
+  border-radius: 15px 0 0 15px;
+}
+
+.pop-card-img-resize {
+  object-fit: cover;
+  height: 130px;
+  width: 130px;
+  border-radius: 15px 0 0 15px;
+}
+
+
+.pop-card-text-wrap-a {
+  margin: 10px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.pop-card-text-wrap {
+  margin: 10px;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.pop-card-text-wrap h3 {
+  margin: 0;
+  height: 33%;
+}
+
+.pop-card-text-wrap p {
+  margin: 0;
+  height: 48%;
+}
+
+.pop-card-text-wrap section {
+  margin: 0;
+  height: 20%;
+  font-size: 0.65rem;
+}
+
+/* .line {
+  color: gray;
+  :right ;
+} */
+
+.top-section-wrapper {
+  display: flex;
+  object-fit: contain;
+}
+
+.icon-color {
+  background-color: #0065fc;
+  color: white;
+  border-color: lightgray;
+  border-radius: 40%;
+}
+
+.activities {
+  padding: 25px;
+  border-radius: 40px;
+  background-color: #F2F2;
+  margin-right: 30px;
+}
+
+.activ-card-wrapper {
+  display: flex;
+  border: 3px solid orange;
+}
+
+.column-wrap {
+  border: 3px solid blue;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin: 10px;
+  width: 29%;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card h3,
+.card p {
+  margin: 7px 0;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover; /* and changed this from fill to cover  */
+  height: 125px; /* set this height for the images  */
+}
+
+.filled-star {
+  color: blue;
+}
+
+.unfilled-star {
+  color: lightgrey;
+}
+
+h3 {
+  justify-content: center;
+  margin: 10px;
+}
+
+.box{
+border:1px solid black;
+display:flex;
+}
+
+
+
+.activities-box{
+border:1px solid black;
+border-radius:15px 10px 10px 10px;
+margin:1px; 
+padding:1px; 
+background-color: white;
+}
+
+.activities-card{ 
+object-fit: cover;
+object-position: 50%;
+width:300px;
+height:400px;
+margin:5px; 
+padding:5px;
+}
+
+.activities-container {
+border:1px solid black;
+border-radius:15px 0px 0px 10px;
+margin:1px; 
+padding:1px; 
+background-color: white;
+
+}
+
+.activities-card-img{
+object-fit: cover;
+object-position: 65%;
+border-radius: 0px 0px 15px 15px;
+width:300px;
+height:140px;
+margin:15px ; 
+padding:5px;
+
+}
+footer{ 
+  min-height:50px; 
+  display:flex;
+  background-color: #F2F2;
+  
+} 
+ 
+footer div{
+ 
+  min-height:50px; 
+  width:32%;
+  margin:10px;
+  padding:10px;
+}
+
+footer div ul{
+list-style-type: none;
+
+}
+footer div ul li{
+  margin:10px;
+}
+
+
+
+
+  
+
+
+
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-title {
+  font-weight: bold;
+}
+
+.logo {
+  position: absolute;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 50px;
+}
+
+/* media query for tablet */
+@media screen and (max-width: 900px) {
+  /* write tablet code here!!!!! */
+}
+
+/* media query for smart phone */
+@media screen and (max-width: 480px) {
+  .top-section-wrapper {
+    flex-direction: column-reverse;
+  }
+  .accomodations {
+    width: 100%;
+  }
+
+  .accom-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .popular {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}

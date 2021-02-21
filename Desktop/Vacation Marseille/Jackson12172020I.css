@@ -1,0 +1,204 @@
+html {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  label {
+    display: block;
+    font: 1rem 'Raleway', sans-serif;
+    box-sizing: 5em;
+    border-color: lightgray;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
+  .styled {
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(51, 47, 253);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  /* you only need one of the following two css bits */
+  /* 1 - this will style ALL of the placeholders on the page */
+  ::placeholder {
+    color: black;
+  }
+  
+  /* 2 - this will style a specific placeholders with this id - */
+  #site-search::placeholder {
+    color: black;
+  }
+  
+  .header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+  }
+  
+  .Hotel {
+    text-decoration: none;
+  }
+  
+  .town {
+    text-emphasis: none;
+  }
+  
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    word-spacing: 1em;
+    list-style-type: none;
+  }
+  
+  .main-nava {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .accomodations {
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 62%;
+    margin: 10px;
+  }
+  
+  .accom-card-wrapper {
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    border-radius: 40px;
+    background-color: blue;
+    margin: 10px;
+  }
+
+  .top-section-wrapper {
+    display: flex;
+  }
+  
+  .Most {
+    text-align: start;
+  }
+  
+  
+.activities {
+  padding: 25px;
+  border-radius: 40px;
+  background-color: yellowgreen;
+  margin-right: 15px;
+}
+
+.activ-card-wrapper {
+  display: flex;
+  border: 3px solid orange;
+}
+
+.column-wrap {
+  border: 3px solid blue;
+}
+  
+  .card {
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 28%;
+    padding: 5px;
+  }
+  
+  .card a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .filled-star {
+    color: blue;
+  }
+  
+  .unfilled-star {
+    color: lightgrey;
+  }
+  
+  
+  
+  .Destin {
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  .About {
+    justify-content: flex-start;
+  }
+  
+  .Our {
+    justify-content: center;
+  }
+  
+  .As {
+    justify-content: end;
+  }
+
+  footer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    list-style-type: none;
+  }
+
+  .footer-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-title {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .logo {
+      position: absolute;
+    }
+  }
+  
+  .section-wrapper {
+    flex-direction: column-reverse;
+  }
+}
